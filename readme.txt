@@ -1,6 +1,5 @@
 === Formidable Select OptGroup ===
-Contributors: montanabanana, abda53
-Donate link: http://www.amazon.com/gp/wishlist/NLKLKBFRBRZU/
+Contributors: montanabanana, abda53, jas8522, websavers
 Tags: formidable select optgroup form
 Requires at least: 3.0
 Tested up to: 4.1
