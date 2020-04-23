@@ -7,6 +7,7 @@ License: GPLv2 or later
 
 == Description ==
 This plugin will allow you to group select tag options using HTML standard <optgroup> tags in your Formidable forms
+Original project code found here: https://wordpress.org/plugins/formidable-select-optgroup/
 
 == Installation ==
 1. Upload the plugin folder to the `/wp-content/plugins/` directory, or install from the repository
@@ -22,7 +23,6 @@ This plugin will allow you to group select tag options using HTML standard <optg
 
 == Frequently Asked Questions ==/
 1. What if I want to use something besides two **'s? If you do, just edit the code to fit your needs. I kept this out of the database for speed, but I can add it in the future if people want it.
-2. Want to say thanks? [donate](http://www.amazon.com/gp/wishlist/NLKLKBFRBRZU/) 
 
 == Future ToDos ==
 1. If there is interest, I can add the ** flag into the database.
