@@ -1,9 +1,9 @@
 <?php
 /*
 Plugin Name: Formidable Select OptGroup
-Plugin URI: https://github.com/websavers/formdiable-select-optgroup
-Description: This plugin will allow you to create optgroup's in your select forms
-Version: 10.0
+Plugin URI: https://github.com/websavers/formidable-select-optgroup
+Description: This plugin will allow you to create optgroups in your Formidable Forms select fields
+Version: 2.0
 Author: Websavers Inc.
 Author URI: https://websavers.ca
 Original Creator: Eric Lozaga

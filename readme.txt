@@ -2,12 +2,11 @@
 Contributors: montanabanana, abda53, jas8522, websavers
 Tags: formidable select optgroup form
 Requires at least: 3.0
-Tested up to: 4.1
-Stable tag: 0.1.0.6
+Tested up to: 5.4
 License: GPLv2 or later
 
 == Description ==
-This plugin will allow you to create optgroup's in your select forms
+This plugin will allow you to group select tag options using HTML standard <optgroup> tags in your Formidable forms
 
 == Installation ==
 1. Upload the plugin folder to the `/wp-content/plugins/` directory, or install from the repository
@@ -29,6 +28,9 @@ This plugin will allow you to create optgroup's in your select forms
 1. If there is interest, I can add the ** flag into the database.
 
 == Changelog ==
-1. 1.0 Initial Development
+2.0 
+- Forked by Websavers Inc and published on GitHub under GPLv3
+- Repaired bug caused by line-break in middle of <option [...] /option> code
+- Ensure HTML syntax is valid by providing closing </optgroup> tags to correctly wrap the <option> tags within
 
-== Upgrade Notice ==
+1.0 Initial Development
