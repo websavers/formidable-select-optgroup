@@ -32,12 +32,10 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
 function frm_add_optgroup($html, $field, $args){
 	if ($field['type']=='select'){
 		if (strpos($html,'**') !== false) {
-			$re = '/<option \s?value="(\*\*\w+)(.*?)<\/option>/m';
+			$re = '/<option \s?value="\*\*(.*?)\*\*"(.*?)<\/option>/m';
 			$html = preg_replace_callback($re, function($matches) {
-				$value = substr($matches[1], 2); // Remove leading **
-				return '<optgroup label="' . $value . '">' . $matches[2] . '</optgroup>';
+				return '<optgroup label="' . $matches[1] . '">' . '</optgroup>';
 			  }, $html);
- 
 		}
 	}
 	return $html;
