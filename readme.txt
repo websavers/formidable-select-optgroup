@@ -1,5 +1,5 @@
 === Formidable Select OptGroup ===
-Contributors: montanabanana, abda53, jas8522, websavers
+Contributors: montanabanana, abda53, jas8522, websavers, jpleakis
 Tags: formidable select optgroup form
 Requires at least: 3.0
 Tested up to: 5.4
